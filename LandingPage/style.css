@@ -1,0 +1,79 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styling header */
+  header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Naruto', sans-serif;
+  }
+  
+  /* Styling hero section */
+  .hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #ff4500; /* Orange */
+    color: #fff;
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .hero h1 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+    font-family: 'Naruto', sans-serif;
+    color: #fff;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    color: #fff;
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+  
+  .cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .cta-btn {
+    padding: 12px 30px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-btn:hover {
+    background-color: #333;
+  }
+  
+  .cta-btn-secondary {
+    background-color: #ff4500;
+  }
+  
